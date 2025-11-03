@@ -94,3 +94,5 @@ ax2.set_ylabel("Intensité (mA)")
 ax2.set_xlabel("Temps (ms)")
 
 plt.tight_layout()
+
+plt show()
