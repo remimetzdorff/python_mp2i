@@ -14,15 +14,15 @@ import matplotlib.animation as animation
 #############################
 # PARAMÈTRES DE LA SIMULATION
 #############################
-q = 1        # charge adimensionnée
+q = 2        # charge adimensionnée
 m = 1        # masse adimensionnée
 E0 = [0,0,0] # champ électrique adimensionné E = (Ex,Ey,Ez)
-B0 = [0,0,0] # champ magnétique adimensionné B = (Bx,By,Bz)
+B0 = [0,0,2] # champ magnétique adimensionné B = (Bx,By,Bz)
 
 M0 = [0,0,0] # position initiale
-V0 = [0,0,0] # vitesse initiale
+V0 = [2,0,0] # vitesse initiale
 
-f = 1        # coefficient de frottement
+f = 0        # coefficient de frottement
 
 duration = 5 # durée de la simulation
 fps      = 25 # nombre d'images par seconde (pour l'animation)
