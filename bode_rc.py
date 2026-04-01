@@ -9,7 +9,7 @@ Filtre RC
 import numpy as np
 import matplotlib.pyplot as plt
 
-f  = np.linspace(1e-3,1e3,1000)
+f  = np.logspace(-3,3,1000)
 f0 = 1
 
 def H(f):
@@ -26,13 +26,13 @@ sps = (2,1)
 ax1 = plt.subplot2grid(sps, (0,0))
 ax2 = plt.subplot2grid(sps, (1,0))
 
-ax1.plot(f, np.real(H(f)))
-ax2.plot(f, np.imag(H(f)))
+ax1.plot(np.log10(f), 20*np.log10(G(f)))
+ax2.semilogx(f, phi(f))
 
-ax1.set_ylabel("Partie réelle")
+ax1.set_ylabel("G (dB)")
 ax1.set_xticklabels([])
 ax1.grid()
 ax2.set_xlabel("Fréquence ($f/f_0$)")
-ax2.set_ylabel("Partie imaginaire")
+ax2.set_ylabel("$\\varphi$")
 ax2.grid()
 plt.show()

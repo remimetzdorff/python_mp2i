@@ -18,7 +18,7 @@ plt.plot(t*1e3,y)
 
 t = np.arange(0,20e-3, 1/fe)
 y = np.sin(2*np.pi*f*t)
-plt.plot(t*1e3,y ,"o", label="fe="+str(fe)+" Hz")
+plt.plot(t*1e3,y ,".", label="fe="+str(fe)+" Hz")
 
 plt.xlabel("Temps (ms)")
 plt.ylabel("Amplitude (V)")

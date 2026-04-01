@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 import matplotlib.animation as animation
 
-alpha = -1 # Em/E0
+alpha = 0 # Em/E0
 
 def Epeff(r):
     return 1/r**2 - 2/r

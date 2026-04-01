@@ -34,8 +34,8 @@ e2 = a2 * np.cos(2*np.pi*20*fe*t)
 e3 = a3 * np.cos(2*np.pi*2000*fe*t)
 
 s0 = e0 * G(0)
-s1 = a1 * G(fe) * np.cos(2*np.pi*fe*t + phi(fe))
-s2 = a2 * G(20*fe) * np.cos(2*np.pi*20*fe*t + phi(20*fe))
+s1 = a1 * G(fe)      * np.cos(2*np.pi*fe*t      + phi(fe))
+s2 = a2 * G(20*fe)   * np.cos(2*np.pi*20*fe*t   + phi(20*fe))
 s3 = a3 * G(2000*fe) * np.cos(2*np.pi*2000*fe*t + phi(2000*fe))
 
 e = e0 + e1 + e2 + e3

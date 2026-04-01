@@ -9,7 +9,7 @@ Application 4
 import numpy as np
 import matplotlib.pyplot as plt
 
-f0 = 10
+f0 = 100
 fe = 1
 
 def H(f):

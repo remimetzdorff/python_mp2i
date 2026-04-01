@@ -36,8 +36,8 @@ def triangle(n):
     else:
         return 8 * (-1) ** ((n-1)/2) / np.pi ** 2 / n ** 2
 
-N = 101
-function = sawtooth
+N = 51
+function = square
 
 if N == 1:
     colorst = [colormap(x) for x in np.linspace(0, 1, 2)]
