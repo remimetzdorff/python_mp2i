@@ -32,3 +32,5 @@ u = X[:,0]           # récupération des données
 plt.plot(t, u)
 plt.xlabel("Temps (s)")
 plt.ylabel("Tension (V)")
+
+plt.show()

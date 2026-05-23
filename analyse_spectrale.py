@@ -36,3 +36,5 @@ t = np.linspace(0,5,1001)
 plt.plot(t, signal_triangle(t,N=15))
 plt.xlabel("Temps $t$ (s)")
 plt.ylabel("Signal $s(t)$")
+
+plt.show()

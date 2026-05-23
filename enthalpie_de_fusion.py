@@ -11,7 +11,7 @@ def enthalpie_de_fusion(ml, ms, mu, Tl, Ts, Tf, Tfus, cl, cs):
     # Tf : température après fonte en K
     # cl : capacité themrique massique de l'eau liquide
     # cs : capacité themrique massique de l'eau solide
-    terme1 = -(ml + mu)/ms * cs * (Tf-Tl)
+    terme1 = -(ml + mu)/ms * cl * (Tf-Tl)
     terme2 = -cs*(Tfus-Ts)
     terme3 = -cl*(Tf-Tfus) 
     return terme1 + terme2 + terme3  

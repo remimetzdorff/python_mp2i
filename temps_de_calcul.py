@@ -26,6 +26,8 @@ plt.xlabel("$x$")
 plt.ylabel("$z$")
 plt.title("Chute libre")
 
+plt.show()
+
 # choisir n pour avoir un temps de calcul propto n (n=1e4 et plus)
 # %timeit odeint(chute_libre, [1,0], t)
 # T = # noter la valeur

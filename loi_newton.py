@@ -30,6 +30,8 @@ plt.grid()
 plt.xlabel("Temps (s)")
 plt.ylabel("Température (°C)")
 
+plt.show()
+
 #plt.figure()
 #plt.plot(data[1:].index,np.log(Tf - data[1:].values))
 #plt.grid()

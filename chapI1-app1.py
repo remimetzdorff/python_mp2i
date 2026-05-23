@@ -148,7 +148,7 @@ ax.set_aspect("equal")
 ax.set_xlim(-4,4)
 ax.set_ylim(-2.75,2.75)
 plt.axis("off")
-
+plt.show()
 #mysavefig("true_field_line.pdf")
 
 

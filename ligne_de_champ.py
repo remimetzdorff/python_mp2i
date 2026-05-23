@@ -200,5 +200,4 @@ plt.ylim(-5,5)
 plt.xlabel('z')
 plt.ylabel('r')
 
-
-            
+plt.show()

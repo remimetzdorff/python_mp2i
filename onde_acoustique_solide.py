@@ -135,3 +135,5 @@ if save_format is None:
 else:
     writer = Writer(fps=fps, metadata=dict(artist='Me'), bitrate=1800)
     anim.save(path+"animation."+save_format, writer=writer, dpi=dpi)
+
+plt.show()

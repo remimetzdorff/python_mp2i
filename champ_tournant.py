@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-n = 3
+n = 4
 f = .25
 fps = 30
 t = np.linspace(0,1/f, int(1/f * fps))

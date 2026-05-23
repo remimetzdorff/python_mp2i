@@ -59,5 +59,4 @@ plt.title("Diagramme de Clapeyron d'un cycle de Stirling")
 plt.xlim(0,6)
 plt.ylim(0,4)
 plt.legend()
-
 plt.show()
